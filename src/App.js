@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={"https://es.dreamstime.com/icono-de-la-cara-gui%C3%B1o-elemento-anime-face-icon-para-concepto-m%C3%B3vil-y-aplicaciones-web-wink-se-puede-usar-el-en-fondo-blanco-image188565587"} className="App-logo" alt="logo" />
+        <img src={"https://thumbs.dreamstime.com/z/icono-de-sonrisa-agradable-elemento-anime-face-icon-para-concepto-m%C3%B3vil-y-aplicaciones-web-f%C3%A1cil-se-puede-usar-sobre-fondo-188565311.jpg"} className="App-logo" alt="logo" />
         <p>
           Clic para recargar pagina!
         </p>
