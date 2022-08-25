@@ -7,3 +7,4 @@ function Componentefooter(){
         </div>
     );
 }
+export { Componentefooter };
