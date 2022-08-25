@@ -12,4 +12,4 @@ function Componenteheader(){
         </nav>
     );
 }
-export { Comp };
+export { Componenteheader };
