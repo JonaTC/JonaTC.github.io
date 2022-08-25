@@ -1,7 +1,7 @@
 import React from 'react';
 import './componentebody.css';
 
-function Componentebody(){
+function Componente(){
     return(
         <div>
             <div>
@@ -13,8 +13,6 @@ function Componentebody(){
                <h2> Experiencia con Lenguajes de programación</h2>
                <p>Python</p>
                <p>Java</p>
-               <p>C#</p>
-               <p>Otros lenguajes</p>
                <p>SQL</p>
                <p>HTML 5</p>
                <P>CSS 3</P>
@@ -22,4 +20,4 @@ function Componentebody(){
         </div>
     );
 }
-export { Componentebody };
+export { Componente };
