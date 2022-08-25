@@ -10,7 +10,7 @@ function App() {
     <React.Fragment>
       <Componenteheader />
       <Componentebody />
-      <componentefooter />
+      <Componentefooter />
     </React.Fragment>
   );
 }
