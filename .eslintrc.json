@@ -5,22 +5,30 @@
     },
     "extends": [
         "plugin:react/recommended",
+        "eslint:recommended",
         "airbnb",
         "plugin:jsx-ally/recommended",
-        "plugin:react-hooks/recommended"
+        "plugin:react-hooks/recommended",
+        "plugin:react/jsx-runtime"
     ],
     "overrides": [
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+          }
     },
     "plugins": [
         "react",
         "react-hooks"
     ],
     "rules": {
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+    
 
     }
 }
